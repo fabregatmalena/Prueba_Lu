@@ -8,7 +8,6 @@ BEGIN
         TipoContacto VARCHAR(20) NOT NULL, -- Ej: 'Celular', 'Email secundario', 'Tel. Fijo'
         Valor VARCHAR(100) NOT NULL,        -- Ej: '+54 9 379 123456', 'contacto@gmail.com'
         EsPrincipal BIT DEFAULT 0,
-        FechaCreacion DATETIME DEFAULT GETDATE(),
 
         -- Definición de la relación (Clave Foránea)
         CONSTRAINT FK_Contacto_Persona FOREIGN KEY (IdPersona)
