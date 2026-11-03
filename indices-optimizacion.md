@@ -104,6 +104,9 @@ GO
 * **Tiempo Total Transcurrido:** 447 ms
 * **Lecturas Lógicas:** 8.197 páginas
 * **Operador Principal:** Recorrido de tabla (*Table Scan*) con 96% de costo de consulta
+<img width="800" height="200" alt="img2" src="https://github.com/user-attachments/assets/38bacac1-799e-4db7-8a35-a1a3b7bf4cca" />
+<img width="800" height="200" alt="img1" src="https://github.com/user-attachments/assets/a02e07ae-823d-4479-9c85-31c985cb85fe" />
+
 
 > **Nota del Optimizador:** Se detecta advertencia de *Missing Index* (impacto 84.09%):  
 > `CREATE NONCLUSTERED INDEX [<Name of Missing Index, sysname,>] ON [dbo].[FACTURA_HISTORICA] ([fecha_factura]) INCLUDE ([id_factura], [importe_total])`
